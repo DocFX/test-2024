@@ -36,7 +36,7 @@ Currently, we're offering two shipping methods to our customers that are:
 To simplify the exercise we have coded a large part of the feature to give you enough time to design the best way possible.
 
 ### Steps
-1. Clone the repository and fork the `master` branch
+1. Fork the repository on your Github own account, go the `master` branch
 
 2. Complete with your own code the "holes" to complete the feature
 
@@ -61,9 +61,10 @@ To simplify the exercise we have coded a large part of the feature to give you e
 
 **BONUS: Add another postal service, for instance "Chronopost"**
 
-4. Once all done, open a PR with your branch and send it to us:
-    - c.debatz@laboutiqueofficielle.com
-    - g.vincendon@laboutiqueofficielle.com
+4. Once all done:
+- Open a PR with your branch and send the PR link to Marine (m.krol@laboutiqueofficielle.com)
+- Make an archive of your code (all the project without the `vendor`) and send it to Marine (m.krol@laboutiqueofficielle.com)
+*Be aware that the goal is to complete this test in less than 2 hours, the sending time of the first mail is authoritative.*
 
 ### Important
 - Do not forget to handle all potential exceptions in your code
