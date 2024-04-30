@@ -1,5 +1,5 @@
 # LBO - Delivery customer notification
-Allocated time: 60-70 minutes.
+Allocated time: less then 2 hours.
 
 ## To get started
 ### Requirements
@@ -64,6 +64,7 @@ To simplify the exercise we have coded a large part of the feature to give you e
 4. Once all done:
 - Open a PR with your branch and send the PR link to Marine (m.krol@laboutiqueofficielle.com)
 - Make an archive of your code (all the project without the `vendor`) and send it to Marine (m.krol@laboutiqueofficielle.com)
+
 *Be aware that the goal is to complete this test in less than 2 hours, the sending time of the first mail is authoritative.*
 
 ### Important
