@@ -13,7 +13,7 @@ class ColissimoTrackingProvider
     {
         $parcels = [
             'SOCO-D123456789' => ColissimoTrackingStatus::Delivered,
-            'SOCO-123456789' => ColissimoTrackingStatus::Sent
+            'SOCO-123456789' => ColissimoTrackingStatus::Sent,
         ];
 
         foreach ($parcels as $parcelCode => $parcelStatus) {

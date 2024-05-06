@@ -3,6 +3,8 @@
 namespace App\Tracking;
 
 use App\Tracking\Domain\NoMatchingHandlerException;
+use App\Tracking\Handler\Domain\TrackingHandlers\MondialRelayTrackingHandler;
+use App\Tracking\Handler\Domain\TrackingHandlers\SoColissimoTrackingHandler;
 use App\Tracking\Handler\TrackingHandlerInterface;
 
 class TrackingManager
@@ -13,7 +15,10 @@ class TrackingManager
     private array $handlers;
 
     public function __construct() {
-        $this->handlers = []; // should contain your handlers
+        $this->handlers = [
+            'MR' => new MondialRelayTrackingHandler(),
+            'SOCO' => new SoColissimoTrackingHandler(),
+        ];
     }
 
     /**

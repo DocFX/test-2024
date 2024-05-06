@@ -52,7 +52,7 @@ To simplify the exercise we have coded a large part of the feature to give you e
       And for So.Colissimo:
 
          ```
-         bin/console parcel:tracking MR-D123456789
+         bin/console parcel:tracking SOCO-D123456789
          [John Wayne <j.wayne@soco.com>] New SoColissimo parcel "SOCO-D123456789" received.
          ```
 
